@@ -8,7 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
    <import resource="spring-dao.xml"/>
-    <context:component-scan base-package="com.evan.os.service.impl1"/>
+    <context:component-scan base-package="com.evan.os.service.impl.impl1"/>
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>

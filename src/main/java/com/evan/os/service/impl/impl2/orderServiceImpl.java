@@ -1,4 +1,4 @@
-package com.evan.os.service.impl2;
+package com.evan.os.service.impl.impl2;
 
 import com.evan.os.dao.OrderDao;
 import com.evan.os.dao.ProductDao;
