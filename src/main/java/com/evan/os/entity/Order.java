@@ -18,18 +18,14 @@ public class Order {
     public Order() {
     }
 
-    public Order(String id, String productsId, int number, double price, Date createTime, Date sendTime, Date confirmTime, String consignee, String consigneePhone, String consigneeAddress, String status) {
+    public Order(String id, String productsId, int number, double price, String consignee, String consigneePhone, String consigneeAddress) {
         this.id = id;
         this.productsId = productsId;
         this.number = number;
         this.price = price;
-        this.createTime = createTime;
-        this.sendTime = sendTime;
-        this.confirmTime = confirmTime;
         this.consignee = consignee;
         this.consigneePhone = consigneePhone;
         this.consigneeAddress = consigneeAddress;
-        this.status = status;
     }
 
     public String getId() {
