@@ -85,7 +85,7 @@
 
 – rollback 
 
-*回滚事务
+* 回滚事务
 ## TransationDefinition接口
 
 ## 隔离级别
