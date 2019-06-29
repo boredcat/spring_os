@@ -8,7 +8,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:spring-service1.xml")
+@ContextConfiguration("classpath:spring-service2.xml")
 public class OrderTest {
 
     @Autowired
